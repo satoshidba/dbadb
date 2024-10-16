@@ -7,6 +7,12 @@
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
+  <ItemGroup>
+    <Build Remove="ExternalScripts\OlaHallengren\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Remove="ExternalScripts\spBlitz\**" />
+  </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
