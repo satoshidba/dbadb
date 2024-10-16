@@ -3,3 +3,5 @@ obj/
 *.dacpac
 *.user
 *.vscode
+/ExternalScripts/OlaHallengren/*
+/ExternalScripts/spBlitz/*

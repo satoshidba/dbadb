@@ -1,0 +1,6 @@
+[submodule "ExternalScripts/OlaHallengren"]
+	path = ExternalScripts/OlaHallengren
+	url = https://github.com/olahallengren/sql-server-maintenance-solution.git
+[submodule "ExternalScripts/spBlitz"]
+	path = ExternalScripts/spBlitz
+	url = https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit.git
