@@ -1,5 +1,7 @@
 obj/
 .git
+.gitignore
+.github
 *.dacpac
 *.user
 *.vscode
